@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9F656152-DFE6-42C6-85CD-2F054EE37573}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MiniWord_LeHuuPhu</RootNamespace>
+    <AssemblyName>MiniWord_LeHuuPhu</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LeHuuPhu.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_phu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_phu.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open_phu.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_phu.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_phu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo_phu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redo_phu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paste_phu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut_phu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coppy_phu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textColor_phu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hightLine_phu.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find_phu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\replace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selectAll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon1.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon2.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon3.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon5.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon6.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon7.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\font-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoomIn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoomOut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\1.gif" />
+    <Content Include="Resources\10.gif" />
+    <Content Include="Resources\11.gif" />
+    <Content Include="Resources\12.gif" />
+    <Content Include="Resources\13.gif" />
+    <Content Include="Resources\14.gif" />
+    <Content Include="Resources\15.gif" />
+    <Content Include="Resources\16.gif" />
+    <Content Include="Resources\17.gif" />
+    <Content Include="Resources\18.gif" />
+    <Content Include="Resources\19.gif" />
+    <Content Include="Resources\2.gif" />
+    <Content Include="Resources\20.gif" />
+    <Content Include="Resources\21.gif" />
+    <Content Include="Resources\22.gif" />
+    <Content Include="Resources\23.gif" />
+    <Content Include="Resources\24.gif" />
+    <Content Include="Resources\25.gif" />
+    <Content Include="Resources\26.gif" />
+    <Content Include="Resources\27.gif" />
+    <Content Include="Resources\28.gif" />
+    <Content Include="Resources\29.gif" />
+    <Content Include="Resources\3.gif" />
+    <Content Include="Resources\30.gif" />
+    <Content Include="Resources\31.gif" />
+    <Content Include="Resources\32.gif" />
+    <Content Include="Resources\33.gif" />
+    <Content Include="Resources\34.gif" />
+    <Content Include="Resources\35.gif" />
+    <Content Include="Resources\36.gif" />
+    <Content Include="Resources\37.gif" />
+    <Content Include="Resources\38.gif" />
+    <Content Include="Resources\39.gif" />
+    <Content Include="Resources\4.gif" />
+    <Content Include="Resources\40.gif" />
+    <Content Include="Resources\41.gif" />
+    <Content Include="Resources\42.gif" />
+    <Content Include="Resources\43.gif" />
+    <Content Include="Resources\44.gif" />
+    <Content Include="Resources\45.gif" />
+    <Content Include="Resources\46.gif" />
+    <Content Include="Resources\47.gif" />
+    <Content Include="Resources\48.gif" />
+    <Content Include="Resources\49.gif" />
+    <Content Include="Resources\5.gif" />
+    <Content Include="Resources\50.gif" />
+    <Content Include="Resources\51.gif" />
+    <Content Include="Resources\52.gif" />
+    <Content Include="Resources\53.gif" />
+    <Content Include="Resources\54.gif" />
+    <Content Include="Resources\6.gif" />
+    <Content Include="Resources\7.gif" />
+    <Content Include="Resources\8.gif" />
+    <Content Include="Resources\9.gif" />
+    <None Include="Resources\paste-none.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

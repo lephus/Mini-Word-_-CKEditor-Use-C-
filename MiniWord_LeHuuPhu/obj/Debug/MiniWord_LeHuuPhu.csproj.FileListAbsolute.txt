@@ -1,0 +1,10 @@
+E:\HOCKY-I-NAM4\laptrinhtrongwindown\MiniWord_LeHuuPhu\MiniWord_LeHuuPhu\bin\Debug\MiniWord_LeHuuPhu.exe.config
+E:\HOCKY-I-NAM4\laptrinhtrongwindown\MiniWord_LeHuuPhu\MiniWord_LeHuuPhu\bin\Debug\MiniWord_LeHuuPhu.exe
+E:\HOCKY-I-NAM4\laptrinhtrongwindown\MiniWord_LeHuuPhu\MiniWord_LeHuuPhu\bin\Debug\MiniWord_LeHuuPhu.pdb
+E:\HOCKY-I-NAM4\laptrinhtrongwindown\MiniWord_LeHuuPhu\MiniWord_LeHuuPhu\obj\Debug\MiniWord_LeHuuPhu.csproj.AssemblyReference.cache
+E:\HOCKY-I-NAM4\laptrinhtrongwindown\MiniWord_LeHuuPhu\MiniWord_LeHuuPhu\obj\Debug\MiniWord_LeHuuPhu.Form1.resources
+E:\HOCKY-I-NAM4\laptrinhtrongwindown\MiniWord_LeHuuPhu\MiniWord_LeHuuPhu\obj\Debug\MiniWord_LeHuuPhu.Properties.Resources.resources
+E:\HOCKY-I-NAM4\laptrinhtrongwindown\MiniWord_LeHuuPhu\MiniWord_LeHuuPhu\obj\Debug\MiniWord_LeHuuPhu.csproj.GenerateResource.cache
+E:\HOCKY-I-NAM4\laptrinhtrongwindown\MiniWord_LeHuuPhu\MiniWord_LeHuuPhu\obj\Debug\MiniWord_LeHuuPhu.csproj.CoreCompileInputs.cache
+E:\HOCKY-I-NAM4\laptrinhtrongwindown\MiniWord_LeHuuPhu\MiniWord_LeHuuPhu\obj\Debug\MiniWord_LeHuuPhu.exe
+E:\HOCKY-I-NAM4\laptrinhtrongwindown\MiniWord_LeHuuPhu\MiniWord_LeHuuPhu\obj\Debug\MiniWord_LeHuuPhu.pdb
